@@ -5,10 +5,16 @@
   "description": "Approved curriculum for coaches and course creators, shared over MCP.",
   "version": "0.1.0",
   "websiteUrl": "https://github.com/LAHutchins91/cohort-mcp",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/LAHutchins91/cohort-mcp/main/logo.jpg",
+      "mimeType": "image/jpeg"
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "http://localhost:3000/mcp"
+      "url": "https://cohort-mcp.vercel.app/mcp"
     }
   ]
 }
